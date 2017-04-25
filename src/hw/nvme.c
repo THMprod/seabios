@@ -599,7 +599,7 @@ nvme_cmd_readwrite(struct nvme_namespace *ns, struct disk_op_s *op, int write)
 int
 nvme_process_op(struct disk_op_s *op)
 {
-    if (!CONFIG_NVME || !runningOnQEMU())
+    if (!CONFIG_NVME)
         return DISK_RET_SUCCESS;
 
     struct nvme_namespace *ns = container_of(op->drive_gf, struct nvme_namespace,
@@ -618,7 +618,7 @@ void
 nvme_setup(void)
 {
     ASSERT32FLAT();
-    if (!CONFIG_NVME || !runningOnQEMU())
+    if (!CONFIG_NVME)
         return;
 
     dprintf(3, "init nvme\n");
