@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "50c6786a_03814c88",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1001545
+      },
+      "writtenOn": "2017-04-25T19:09:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "50c6786a_03edccc9",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 4
+      },
+      "revId": "a0fe90701d8692651cf3718c85671d8486e27c72",
+      "serverId": "b08889c0-1fd2-4901-800c-8cbc5bd2cb46",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "50c6786a_c3fbd488",
         "filename": "/COMMIT_MSG",
         "patchSetId": 1
@@ -59,6 +83,54 @@
       "writtenOn": "2017-04-25T16:19:20Z",
       "side": 1,
       "message": "has",
+      "range": {
+        "startLine": 9,
+        "startChar": 63,
+        "endLine": 9,
+        "endChar": 66
+      },
+      "revId": "a0fe90701d8692651cf3718c85671d8486e27c72",
+      "serverId": "b08889c0-1fd2-4901-800c-8cbc5bd2cb46",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "50c6786a_63f76039",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1001545
+      },
+      "writtenOn": "2017-04-25T19:09:10Z",
+      "side": 1,
+      "message": "The latest git master version including this patch of course.",
+      "parentUuid": "50c6786a_c3fbd488",
+      "range": {
+        "startLine": 9,
+        "startChar": 55,
+        "endLine": 9,
+        "endChar": 62
+      },
+      "revId": "a0fe90701d8692651cf3718c85671d8486e27c72",
+      "serverId": "b08889c0-1fd2-4901-800c-8cbc5bd2cb46",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "50c6786a_237e4808",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1001545
+      },
+      "writtenOn": "2017-04-25T19:09:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "50c6786a_e3eff0c1",
       "range": {
         "startLine": 9,
         "startChar": 63,
